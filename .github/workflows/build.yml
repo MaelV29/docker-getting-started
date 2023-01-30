@@ -17,3 +17,8 @@ jobs:
       with:
         username: maelv56
         password: dckr_pat_-O9PANS3dWhUn03j_4eJpzHChvY
+    - name: Build and push to dockerhub (maelv56/getting-started)
+      uses: docker/build-push-action@v3
+      with:
+        push: true
+        tags: maelv56/getting-started
